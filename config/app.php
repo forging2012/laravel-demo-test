@@ -143,6 +143,7 @@ return [
 //        Laracasts\TestDummy\DbTestCase::class,
 //        Laracasts\TestDummy\TestDummyServiceProvider::class,
 
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
          * Application Service Providers...

@@ -34,3 +34,4 @@ $factory->define(App\Comment::class, function(Faker\Generator $faker){
         'message' => $faker->sentence(mt_rand(5, 10)),
     ];
 });
+
