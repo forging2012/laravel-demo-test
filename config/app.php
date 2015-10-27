@@ -140,6 +140,10 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         Laracasts\Generators\GeneratorsServiceProvider::class,
+//        Laracasts\TestDummy\DbTestCase::class,
+//        Laracasts\TestDummy\TestDummyServiceProvider::class,
+
+
         /*
          * Application Service Providers...
          */
