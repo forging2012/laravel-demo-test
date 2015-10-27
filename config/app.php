@@ -13,7 +13,8 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+//    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +40,8 @@ return [
     |
     */
 
-    'timezone' => 'UTC',
+//    'timezone' => 'UTC',
+    'timezone' => 'PRC',
 
     /*
     |--------------------------------------------------------------------------
@@ -78,7 +80,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY', 'SomeRandomString'),
+    'key' => env('APP_KEY', 'RYJjaCDCoPzyzpJrgG3xM73qHB7jzMKs'),
 
     'cipher' => 'AES-256-CBC',
 
@@ -137,6 +139,7 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Laracasts\Generators\GeneratorsServiceProvider::class,
         /*
          * Application Service Providers...
          */
